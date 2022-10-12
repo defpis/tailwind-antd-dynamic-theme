@@ -1,0 +1,23 @@
+@import 'normalize.css';
+@import 'antd/dist/antd.variable.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  height: 100vh;
+  overflow: auto;
+}
+
+:root {
+  --color-bg-base: 249, 250, 251;
+}
+
+.dark {
+  --color-bg-base: 75, 85, 99;
+}
+
+.tiger {
+  --color-bg-base: 243, 187, 74;
+}
